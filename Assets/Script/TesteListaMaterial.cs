@@ -6,11 +6,19 @@ public class TesteListaMaterial : MonoBehaviour
 {
     public int IndicePorta;
     public GameObject[] gmBloco = new GameObject[15];
+    public GameObject[] objParedes = new GameObject[16];
     public GameObject obj_chao;
     public GameObject obj_madeira;
-    public Material[] TransfText_parede = new Material [2];
-    public Material[] TransfText_chao = new Material [2];
-    public Material[] TransfText_madeira = new Material [2];
+    public GameObject obj_janela;
+    public GameObject[] obj_elevador = new GameObject[2];
+    public GameObject obj_pedregulho;
+    public Material[] TransfText_parede = new Material [8];
+    public Material[] TransfText_Muro = new Material [8];
+    public Material[] TransfText_chao = new Material [8];
+    public Material[] TransfText_madeira = new Material [8];
+    public Material[] TransfText_janela = new Material [8];
+    public Material[] TransfText_elevador = new Material [8];
+    public Material[] TransfText_pedras = new Material [8];
         void Start()
     {
         
@@ -28,8 +36,17 @@ public class TesteListaMaterial : MonoBehaviour
         for(int i=0; i<gmBloco.Length; i++){
         gmBloco[i].GetComponent<Renderer>().material = TransfText_parede[IndicePorta];
         }
+        for(int i=0; i<obj_elevador.Length; i++){
+        obj_elevador[i].GetComponent<Renderer>().material = TransfText_elevador[IndicePorta];
+        }
+        for(int i=0; i<objParedes.Length; i++){
+        objParedes[i].GetComponent<Renderer>().material = TransfText_Muro[IndicePorta];
+        }
+
         obj_chao.GetComponent<Renderer>().material = TransfText_chao [IndicePorta];
         obj_madeira.GetComponent<Renderer>().material = TransfText_madeira [IndicePorta];
+        obj_pedregulho.GetComponent<Renderer>().material = TransfText_pedras [IndicePorta];
+        obj_janela.GetComponent<Renderer>().material = TransfText_janela [IndicePorta];
     }
         
 }
