@@ -31,6 +31,8 @@ public class mudaTextura : MonoBehaviour
     [SerializeField]
     private Material[] materialParedes = new Material[8];
     [SerializeField]
+    private Material[] materialTeto = new Material[8];
+    [SerializeField]
     private Material[] materialElevador = new Material[8];
     [SerializeField]
     private Material[] materialChao = new Material[8];
@@ -43,12 +45,9 @@ public class mudaTextura : MonoBehaviour
 
     [SerializeField]
     public Material materialCadeirasNormais;
-
     private int index = 6;
-
     public Text txtMonolith;
-
-
+    
     void Start()
     {
         objGerais = GameObject.FindGameObjectsWithTag("ObjetosGerais");
@@ -75,7 +74,7 @@ public class mudaTextura : MonoBehaviour
         switch (other.name)
         {
             case "Porta_NE":
-                txtMonolith.text = "Entrou na Noite Estrelada Boa po";
+                txtMonolith.text = "Este estilo veio da obra A Noite Estrelada, do artista Van Gogh."+"             Tal obra pós-impressionista, pintada em 1889, retrata a vista que o Van Gogh tinha quando olhava pela janela do quarto no hospício em que foi internado."+"                                             Uma boa parte dos elementos presentes foram baseados na imaginação do autor, por isso o uso de algumas cores específicas, figuras distorcidas e um vilarejo que não existia na cena original.";
                 index = 0;
                 break;
             case "Porta_Grito":
@@ -99,7 +98,9 @@ public class mudaTextura : MonoBehaviour
                 index = 5;
                 break;
             case "Porta_Normal":
-                txtMonolith.text = "Entrou no Normal, normal po";
+                txtMonolith.text = "                         Créditos                       "+
+                " Antônio José Melo Leite Júnior"+	"               Natal Anacleto Chicca Junior" +
+                "           Rafael Augusto Ferreira do Carmo         Tiago Caúla de Oliveira Maia              Lucas Queiroz Alcântara";
                 index = 6;
                 break;
             case "Porta_Sacilotto":
