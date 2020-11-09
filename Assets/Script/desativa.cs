@@ -1,22 +1,27 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class desativa : MonoBehaviour
 {
     private GameObject logo;
-    // Start is called before the first frame update
+    private GameObject monolith;
+    [SerializeField]
+    private Button buttonBack;
+    
     void Start()
     {
         logo = GameObject.Find("Logo");
-        logo.SetActive(false);
-        
-    }
+        monolith = GameObject.Find("Monolito");
+        buttonBack.onClick.AddListener(ClickBack);
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+        logo.SetActive(false);
+
+        if (MenuPlayGame.monolithIsTrue == true) monolith.SetActive(true);
+        else monolith.SetActive(false);
+
     }
 
     void OnTriggerEnter(Collider other)
@@ -30,4 +35,9 @@ public class desativa : MonoBehaviour
             }
             
         }
+
+     void ClickBack()
+    {
+        SceneManager.LoadScene("Menu");
+    }
 }
