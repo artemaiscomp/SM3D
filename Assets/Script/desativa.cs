@@ -20,7 +20,10 @@ public class desativa : MonoBehaviour
         logo.SetActive(false);
 
         if (MenuPlayGame.monolithIsTrue == true) monolith.SetActive(true);
-        else monolith.SetActive(false);
+        else {
+            monolith.SetActive(false);
+            logo.SetActive(false);
+        }
 
     }
 

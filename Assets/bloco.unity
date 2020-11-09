@@ -5989,6 +5989,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 913898249}
+  - {fileID: 1257648824}
   m_Father: {fileID: 0}
   m_RootOrder: 68
   m_LocalEulerAnglesHint: {x: 0, y: -36.68, z: 0}
@@ -16980,12 +16981,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1257648819}
-  m_LocalRotation: {x: -0, y: -0.31329176, z: -0, w: 0.949657}
-  m_LocalPosition: {x: 41.9, y: 20.6, z: 108.7}
-  m_LocalScale: {x: 7, y: 7, z: -1.0571318}
+  m_LocalRotation: {x: -0, y: 0.0014361143, z: -0, w: 0.99999905}
+  m_LocalPosition: {x: 9.355307, y: 15.67, z: -0.9830029}
+  m_LocalScale: {x: 7, y: 7, z: -1.0571316}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 69
+  m_Father: {fileID: 474653038}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: -36.515003, z: 0}
 --- !u!43 &1279531551
 Mesh:
@@ -17844,7 +17845,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 25
+    m_FontSize: 24
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 0
@@ -17856,11 +17857,14 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "Bem vindo(a), voc\xEA est\xE1 no SM3D, um ambiente virtual que busca explorar
-    o uso da transfer\xEAncia neural de estilo. \xC0 sua frente tem um corredor com
-    8 portas, cada uma com um estilo espec\xEDfico, escolha uma e te darei algumas
-    curiosidades sobre a obra utilizada.\r\n\r\n\n>Utilize o bot\xE3o da esquerda
-    para se movimentar\r\n\r\n>Deslize o dedo pelo lado direito da tela para  rotacionar
-    seu campo de vis\xE3o\r\n\n"
+    o bloco did\xE1tico do curso de Sistemas e M\xEDdias Digitais atrav\xE9s das
+    lentes da transfer\xEAncia neural de estilo, t\xE9cnica de intelig\xEAncia artificial
+    que modifica o ambiente tendo como base imagens art\xEDsticas. \xC0 sua frente
+    h\xE1 um corredor com oito portas, cada uma com um estilo espec\xEDfico. Escolha
+    uma e te direi algumas curiosidades sobre a obra utilizada na transfer\xEAncia
+    de estilo. Explore o ambiente como quiser!\r\n\r\nUtilize o bot\xE3o da esquerda
+    para se movimentar.\r\n\r\nDeslize o dedo pelo lado direito da tela para  rotacionar
+    seu campo de vis\xE3o.\r\n\r\n"
 --- !u!222 &1333974068
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -19047,7 +19051,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh28088
+  m_Name: pb_Mesh14928
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
