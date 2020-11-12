@@ -9,6 +9,7 @@ TagManager:
   - ObjetosGerais
   - Teto
   - porta
+  - Quadros
   layers:
   - Default
   - TransparentFX
