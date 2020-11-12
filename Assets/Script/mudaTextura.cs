@@ -74,27 +74,27 @@ public class mudaTextura : MonoBehaviour
         switch (other.name)
         {
             case "Porta_NE":
-                txtMonolith.text = "Este estilo veio da obra A Noite Estrelada, do artista Van Gogh."+"             Tal obra pós-impressionista, pintada em 1889, retrata a vista que o Van Gogh tinha quando olhava pela janela do quarto no hospício em que foi internado."+"                                             Uma boa parte dos elementos presentes foram baseados na imaginação do autor, por isso o uso de algumas cores específicas, figuras distorcidas e um vilarejo que não existia na cena original.";
+                txtMonolith.text = "Este estilo veio da obra A Noite Estrelada, do artista Vincent van Gogh. Tal obra pós-impressionista, pintada em 1889, retrata a vista que o autor tinha quando olhava pela janela do quarto no hospício em que foi internado. Uma boa parte dos elementos presentes foi baseada na imaginação do pintor, por isso o uso de algumas cores específicas, figuras distorcidas e um vilarejo que sequer existia na cena original.";
                 index = 0;
                 break;
             case "Porta_Grito":
-                txtMonolith.text = "Entrou no Grito fala baixo po";
+                txtMonolith.text = "O estilo em Questão veio de uma das obras da série O Grito, do artista Norueguês Edvard Munch, pintada em 1893. Tal pintura, baseado no relato escrito em seu diário, retrata a visão do autor de um ocorrido durante seu passeio com amigos em que o céu pareceu ficar vermelho e um grito infinito ocupava toda a natureza.";
                 index = 1;
                 break;
             case "Porta_Mondrian":
-                txtMonolith.text = "Entrou no Mondrian nice po";
+                txtMonolith.text = "Uma obra do Neoplasticismo que contêm apenas 3 cores e retas, tanto na vertical quanto na horizontal. Composição com Amarelo, Azul e Vermelho, de Piet Mondrian, usava a teoria de abstrair quase ao máximo as formas. Apesar de que até uma criança com uma régua e algumas cores poderia fazê-la com facilidade, há muito mais que isso, criando um efeito monumental, apesar da escassez proposital de elementos gráficos.";
                 index = 2;
                 break;
             case "Porta_Guernica":
-                txtMonolith.text = "Entrou em Guernica, quer guerra po?";
+                txtMonolith.text = "Este estilo, basicamente em escala de cinzas, veio do quadro Guernica, do artista Pablo Picasso, pintada em 1937. Na obra pode-se notar elementos marcantes, como guerra, morte, fome e opressão, entre outros. Dessa forma, Guernica representa uma declaração contra a violência da guerra e, assim, acabou se tornando um símbolo da liberdade do ser humano em oposição ao militarismo mundial.";
                 index = 3;
                 break;
             case "Porta_Romero":
-                txtMonolith.text = "Entrou no Romero, quebra os vaso nao po";
+                txtMonolith.text = "Esse estilo veio de uma produção do brasileiro Romero Britto tal peça, em particular, se chama Um Novo Dia e algumas de suas características mais notáveis são a variedade de suas cores saturadas e os destacados contornos pretos entre elas. A energia presente na obra marca bem o estilo do artista, que acabou tornando-o tão popular. ";
                 index = 4;
                 break;
             case "Porta_Onda":
-                txtMonolith.text = "Entrou na Onda taca a mae pra ver se quica po";
+                txtMonolith.text = "A grande onda de Kanagawa, ou apenas ‘A Onda’, do Artista japonês Hokusai, representa uma grande onda, possivelmente vista ao redor do monte Fuji. Esta xilogravura é a obra mais famosa do autor e a primeira de sua série de obras que buscavam reproduzir diferentes vistas do monte Fuji, datadas no ano de 1832.";
                 index = 5;
                 break;
             case "Porta_Normal":
@@ -104,7 +104,7 @@ public class mudaTextura : MonoBehaviour
                 index = 6;
                 break;
             case "Porta_Sacilotto":
-                txtMonolith.text = "Entrou no Sarcilotto, nome de ketchup po";
+                txtMonolith.text = "Este estilo veio do artista brasileiro Luiz Sacilotto. Em sua Obra Concreção 5523 o artista buscou produzir uma intrincada ilusão de óptica. Tal característica, bem comum em seus quadros.As poucas tonalidades geralmente empregadas, a cadência gráfica e as mudanças de direção ajudaram a definir o movimento Op Art no Brasil.";
                 index = 7;
                 break;
         }
