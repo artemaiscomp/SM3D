@@ -100,7 +100,7 @@ public class mudaTextura : MonoBehaviour
             case "Porta_Normal":
                 txtMonolith.text = "                         Créditos                       "+
                 " Antônio José Melo Leite Júnior"+	"               Natal Anacleto Chicca Junior" +
-                "           Rafael Augusto Ferreira do Carmo         Tiago Caúla de Oliveira Maia              Lucas Queiroz Alcântara";
+                "                  Rafael Augusto Ferreira do Carmo                         Tiago Caúla de Oliveira Maia                          Lucas Queiroz Alcântara";
                 index = 6;
                 break;
             case "Porta_Sacilotto":
