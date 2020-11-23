@@ -10,11 +10,15 @@ public class desativa : MonoBehaviour
     private GameObject monolith;
     [SerializeField]
     private Button buttonBack;
+    private GameObject tutorialObj;
+    private bool tutorialOn = true;
+    private float countdown = 5.0f;
     
     void Start()
     {
         logo = GameObject.Find("Logo");
         monolith = GameObject.Find("Monolito");
+        tutorialObj = GameObject.Find("Tutorial");
         buttonBack.onClick.AddListener(ClickBack);
 
         logo.SetActive(false);
@@ -25,6 +29,12 @@ public class desativa : MonoBehaviour
             logo.SetActive(false);
         }
 
+    }
+    void Update()
+    {
+       if(tutorialOn == true && Input.GetMouseButtonDown(0)){
+               tutorialObj.SetActive(false);
+       }
     }
 
     void OnTriggerEnter(Collider other)
