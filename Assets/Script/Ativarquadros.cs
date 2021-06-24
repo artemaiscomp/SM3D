@@ -48,7 +48,7 @@ public class Ativarquadros : MonoBehaviour
                 for(int i = 0; i < quadros.Length; i++){
                 quadros[i].SetActive(false);
                 }
-                quadros[4].SetActive(true);
+                quadros[0].SetActive(true);
                 
                 break;
             
@@ -56,7 +56,7 @@ public class Ativarquadros : MonoBehaviour
             for(int i = 0; i < quadros.Length; i++){
                 quadros[i].SetActive(false);
                 }
-                quadros[5].SetActive(true);
+                quadros[1].SetActive(true);
                
                 break;
             
@@ -64,7 +64,7 @@ public class Ativarquadros : MonoBehaviour
                 for(int i = 0; i < quadros.Length; i++){
                 quadros[i].SetActive(false);
                 }
-                quadros[3].SetActive(true);
+                quadros[2].SetActive(true);
                 
                 break;
             
@@ -72,7 +72,7 @@ public class Ativarquadros : MonoBehaviour
                 for(int i = 0; i < quadros.Length; i++){
                 quadros[i].SetActive(false);
                 }
-                quadros[1].SetActive(true);
+                quadros[3].SetActive(true);
                 
                 break;
             
@@ -80,14 +80,14 @@ public class Ativarquadros : MonoBehaviour
                 for(int i = 0; i < quadros.Length; i++){
                 quadros[i].SetActive(false);
                 }
-                quadros[2].SetActive(true);
+                quadros[4].SetActive(true);
                 break;
             
             case "Porta_Onda":
                 for(int i = 0; i < quadros.Length; i++){
                 quadros[i].SetActive(false);
                 }
-                quadros[0].SetActive(true);
+                quadros[5].SetActive(true);
                 
                 break;
             

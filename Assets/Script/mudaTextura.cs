@@ -15,7 +15,6 @@ public class mudaTextura : MonoBehaviour
     private GameObject elev2;
 
     private GameObject chao;
-    private GameObject balcao;
     private GameObject pedregulho;
     private GameObject janela;
     public GameObject cadeira0;
@@ -55,7 +54,6 @@ public class mudaTextura : MonoBehaviour
         elev1 = GameObject.Find("Elevador1");
         elev2 = GameObject.Find("Elevador2");
         chao = GameObject.Find("Chao");
-        balcao = GameObject.Find("Balcao");
         pedregulho = GameObject.Find("Pedregulho");
         janela = GameObject.Find("Janela");
         //Encontra cadeiras
@@ -119,10 +117,14 @@ public class mudaTextura : MonoBehaviour
         elev1.GetComponent<Renderer>().material = materialElevador[index];
         elev2.GetComponent<Renderer>().material = materialElevador[index];
         chao.GetComponent<Renderer>().material = materialChao[index];
-        balcao.GetComponent<Renderer>().material = materialBalcao[index];
         janela.GetComponent<Renderer>().material = materialJanela[index];
         pedregulho.GetComponent<Renderer>().material = materialPedra[index];
-
+        cadeira0.GetComponent<Renderer>().material = materialObjGerais[index];
+        cadeira1.GetComponent<Renderer>().material = materialObjGerais[index];
+        cadeira2.GetComponent<Renderer>().material = materialObjGerais[index];
+        cadeira3.GetComponent<Renderer>().material = materialObjGerais[index];
+        cadeira4.GetComponent<Renderer>().material = materialObjGerais[index];
+        cadeira5.GetComponent<Renderer>().material = materialObjGerais[index];
         if (index == 6)
         {
             cadeira0.GetComponent<Renderer>().material = materialCadeirasNormais;
